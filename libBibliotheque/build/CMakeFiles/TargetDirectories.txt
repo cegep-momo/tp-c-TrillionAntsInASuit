@@ -1,0 +1,3 @@
+/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/build/CMakeFiles/rebuild_cache.dir
+/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/build/CMakeFiles/edit_cache.dir
+/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/build/CMakeFiles/bibliotheque.dir
