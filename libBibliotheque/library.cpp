@@ -152,6 +152,17 @@ void Library::displayAllBooks() {
         cout << "Aucun livre dans la bibliothèque.\n";
         return;
     }
+
+    sort(books.begin(), books.end(), [](const unique_ptr<Book>& a, const unique_ptr<Book>& b) {
+        bool livre = false;
+        if (a->getAuthor() != b->getAuthor()) {
+            livre = a->getAuthor() < b->getAuthor();
+        } else
+        {
+            livre = a->getTitle() < b->getTitle();
+        }
+        return livre;
+    });
     
     cout << "\n=== TOUS LES LIVRES ===\n";
     for (size_t i = 0; i < books.size(); ++i) {
@@ -169,6 +180,17 @@ void Library::displayAvailableBooks() {
         cout << "Aucun livre disponible pour emprunt.\n";
         return;
     }
+
+    sort(books.begin(), books.end(), [](const unique_ptr<Book>& a, const unique_ptr<Book>& b) {
+        bool livre = false;
+        if (a->getAuthor() != b->getAuthor()) {
+            livre = a->getAuthor() < b->getAuthor();
+        } else
+        {
+            livre = a->getTitle() < b->getTitle();
+        }
+        return livre;
+    });
     
     cout << "\n=== LIVRES DISPONIBLES ===\n";
     for (size_t i = 0; i < available.size(); ++i) {

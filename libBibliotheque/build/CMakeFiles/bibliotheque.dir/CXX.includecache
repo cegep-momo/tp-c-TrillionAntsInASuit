@@ -10,8 +10,10 @@
 string
 -
 
-/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/filemanager.h
-string
+/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/library.cpp
+iostream
+-
+algorithm
 -
 library.h
 /workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/library.h
@@ -25,18 +27,6 @@ book.h
 /workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/book.h
 user.h
 /workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/user.h
-
-/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/main.cpp
-iostream
--
-limits
--
-string
--
-library.h
-/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/library.h
-filemanager.h
-/workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/filemanager.h
 
 /workspaces/tp-c-TrillionAntsInASuit/libBibliotheque/user.h
 string
